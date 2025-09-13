@@ -21,6 +21,9 @@ jobs:
       - name : Install dependencies
         run: npm install 
 
+      - name: Run Index
+        run: npm index
+        
       - name: Run tests
         run: npm test
 
