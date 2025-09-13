@@ -22,8 +22,8 @@ jobs:
         run: npm install 
 
       - name: Run Index
-        run: npm index
-        
+        run: npm run
+
       - name: Run tests
         run: npm test
 
